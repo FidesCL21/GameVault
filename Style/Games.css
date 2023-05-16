@@ -1,0 +1,153 @@
+/*{
+    outline: 1px solid gray;
+    }*/
+body {
+    background-color: #080925;
+    }
+@font-face {
+    font-family: "TT OctoSquare";
+    src: url(/Fonts/TT\ Octosquares\ Trial\ Bold.ttf); format("truetype");
+    font-weight: bold;
+    }
+@font-face {
+    font-family: "TT OctoSquare Medium";
+    src: url(/Fonts/TT\ Octosquares\ Trial\ Compressed\ Light.ttf); format("truetype");
+    font-weight: normal;
+    }
+.navbar .dropdown-menu {
+     background-color: #080925;
+     }
+    
+.navbar .dropdown-menu :hover {
+    background-color: #FF8C00;
+    }
+    
+.navbar .dropdown-menu a {
+    color: #ffffff;
+    }
+    
+.navbar .nav-link {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 30px;
+    font-family: "TT OctoSquare";
+    }
+    
+.navbar .nav-link.active {
+    color: rgb(255, 144, 0);
+    }
+    
+.dropdown:hover .dropdown-menu {
+    display: block;
+     margin-top: 0;
+     }
+.dropdown-menu .dropdown-item.active {
+    color: #000000;
+    background-color: #FF8C00;
+    }
+.searchbar {
+    width: 700px;
+    margin-top: 135px;
+    }
+.searchbar label {
+    color: #fff;
+    font-family: "TT OctoSquare";
+    font-size: 53px;
+    }
+#search-button{
+    background-color: #FF8C00;
+    width: 130px;
+    font-family: "TT OctoSquare";
+    }
+#search-button:hover {
+    color: #000000;
+    }
+.game-categories {
+    background-color: #141538;
+    width: 500px;
+    height: 450px;
+    margin-top: 80px;
+    }
+.game-categories figcaption {
+    color: white;
+    font-family: "TT OctoSquare Medium";
+    font-size: 20px;
+    }
+
+footer {
+    background-color:#050622;
+    height: 130px;
+    padding: 30px;
+    color: white;
+    margin-top: 40px;
+    }
+footer a {
+    color: white;
+    }
+
+.game-categories :first-child {
+    margin-top: 19px;
+    }
+.game-categories :nth-child(2) {
+    margin-top: 19px;
+    }
+.game-categories :nth-child(3) {
+    margin-top: 19px;
+    }
+.social-media {
+    margin-top: 50px;
+    }
+.game-title h1 {
+    color: white;
+    font-family: "TT OctoSquare";
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 50px;
+
+    }
+.game-details {
+    color: white;
+    font-size: 17px;
+    background-color: #141538;
+    padding-top: 5px;
+    }
+.game-details span {
+    font-weight: bold;
+    }
+.game-rating{
+    color: #fff;
+    font-family: "TT OctoSquare";
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.trailer-title {
+    color: white;
+    font-family: "TT OctoSquare";
+    font-size:30px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    }
+.review-title {
+    color: white;
+    font-family: "TT OctoSquare";
+    font-size:30px;
+    margin-top:20px;
+    }
+.review {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    }
+.about {
+    color: white;
+    font-family: "TT OctoSquare Medium";
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 10px;
+    }
+.about h1 { 
+    font-size: 50px;
+    font-family: "TT OctoSquare";
+
+    }

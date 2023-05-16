@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "TT OctoSquare";
+    src: url(/Fonts/TT\ Octosquares\ Trial\ Bold.ttf); format("truetype");
+    font-weight: bold;
+}
+body {
+    background-color: #454545;
+    color: white;
+    font-family: "TT OctoSquare";
+    padding: 10px;
+}
